@@ -1,0 +1,118 @@
+html{
+    height: 100%;
+}
+
+.terrenos{
+    width: auto;
+}
+body{
+    background-color: #66A972;
+    background-image: url(./img/World\ Map.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu header{
+    text-align: center;
+    height: 450px;
+}
+header .img-logo{
+    height: 600px;
+}
+.menu nav{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu nav .nav-item{
+    color: #DFCB00;
+    font-size: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu nav .nav-item:hover{
+    color: #E50004;
+    font-size: 25px;
+    transition: 0.5s;
+    text-decoration: underline;
+
+}
+.menu nav .category{
+    color:#311A04;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu nav .category:hover{
+    color: #FF850D;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'item-1 text-1 '
+    'item-2 text-2 '
+    'item-3 text-3 ';
+    gap: 50px;
+    padding: 25px;
+}
+.grid-container{
+    text-align: center;
+    padding: 20px 0;
+}
+.grid-container img{
+    height: 400px;
+}
+
+.container .terrenos h1{
+    color: #110D53;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+.grid-container p{
+    
+    color: #F4F5FB;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-align: center;
+    
+}
+
+ .terrenos .return{
+    display: flex;
+    justify-content: left;
+    height: 80px;
+    font-style: italic;
+    font-size: larger;
+    font-stretch: extra-expanded;
+    text-align: justify;
+}
+.container footer{
+    color: white;
+    text-align: center;
+    font-size: 20px ;
+}
+.foot {
+    background-color: #110D53;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 821px){}
+
+@media only screen and (max-width: 820px) and (min-width: 621px){}
+
+@media only screen and (max-width: 620px) and (min-width: 501px){}
+
+@media only screen and (max-width: 500px) and (min-width: 341px){}
+
+@media only screen and (max-width: 340px) and (min-width: 5px){}

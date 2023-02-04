@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #66A972;
+    background-image: url(./img/World\ Map.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+/*Header*/
+.container header{
+    text-align: center;
+    height: 450px;
+}
+header .img-logo{
+    height: 600px;
+}
+/*Navigation*/
+.container nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container nav .nav-item{
+    color: #DFCB00;
+    font-size: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container nav .nav-item:hover{
+    color: #E50004;
+    font-size: 25px;
+    transition: 0.5s;
+    text-decoration: underline;
+
+}
+ /*Body*/
+.container main{
+    text-align: center;
+    height: 300px;
+    padding-top: 80px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+.container main h1{
+    font-size: 35px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.3s;
+}
+.container main h1:hover{
+    text-shadow: 3px 3px #f18407;
+    transition: 0.3s;
+}
+.container main p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;;
+}
+
+.container main p a{
+    text-decoration: none;
+    color: white;
+}
+body .foot footer{
+    color: white;
+    text-align: center;
+    font-size: 20px ;
+}
+.foot {
+    background-color: #110D53;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+@media only screen and (max-width: 980px) and (min-width: 821px){}
+
+@media only screen and (max-width: 820px) and (min-width: 621px){}
+
+@media only screen and (max-width: 620px) and (min-width: 501px){}
+
+@media only screen and (max-width: 500px) and (min-width: 341px){}
+
+@media only screen and (max-width: 340px) and (min-width: 5px){}
